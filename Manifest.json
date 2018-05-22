@@ -1,0 +1,20 @@
+{
+ 
+  "name": "Fullstack Backgrounds *Required",
+  "version": "1.0",
+  "manifest_version": 2,
+
+  "description": "Because Fullstack should be everywhere! - this is what shows in the store *Recomended",
+  "icons":{
+    "128": "icon.gif"
+  },
+
+  "browser_action":{
+    "default_title": "Always have the Fullstack team with you <3 *Type of action - this is what shows on hover",
+    "default_popup": "Popup.html"
+  },
+
+  "permissions":[
+    "http://*/*", "https://*/*"
+  ]
+}
